@@ -4,6 +4,7 @@ public class playerScript : MonoBehaviour
 {
     GameObject Cylinder;
     int collCount = 0;
+    int score = 0;
 
     void OnInteract()
     {
@@ -16,6 +17,7 @@ public class playerScript : MonoBehaviour
             {
                 Cylinder = hit.collider.gameObject;
                 collCount++;
+                score++;
                 print("Player has collected " + collCount + " collectables");
                 Destroy(Cylinder);
             }
