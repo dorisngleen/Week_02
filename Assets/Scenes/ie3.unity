@@ -305,7 +305,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1103691510304432921, guid: aee8dcfc3363db74cbcf4f3b477e1ee7, type: 3}
       propertyPath: m_Name
-      value: Cylinder
+      value: Cylinder2
       objectReference: {fileID: 0}
     - target: {fileID: 3317235075938528926, guid: aee8dcfc3363db74cbcf4f3b477e1ee7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -887,7 +887,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1103691510304432921, guid: aee8dcfc3363db74cbcf4f3b477e1ee7, type: 3}
       propertyPath: m_Name
-      value: Cylinder
+      value: Cylinder3
       objectReference: {fileID: 0}
     - target: {fileID: 3317235075938528926, guid: aee8dcfc3363db74cbcf4f3b477e1ee7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -947,7 +947,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1103691510304432921, guid: aee8dcfc3363db74cbcf4f3b477e1ee7, type: 3}
       propertyPath: m_Name
-      value: Cylinder
+      value: Cylinder1
       objectReference: {fileID: 0}
     - target: {fileID: 3317235075938528926, guid: aee8dcfc3363db74cbcf4f3b477e1ee7, type: 3}
       propertyPath: m_LocalPosition.y

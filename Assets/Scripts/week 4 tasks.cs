@@ -17,7 +17,7 @@ public class playerScript : MonoBehaviour
             {
                 Cylinder = hit.collider.gameObject;
                 collCount++;
-                score++;
+                score += int.Parse(hit.collider.gameObject.name.Replace("Cylinder", "").Trim());
                 print("Player has collected " + collCount + " collectables");
                 Destroy(Cylinder);
             }
